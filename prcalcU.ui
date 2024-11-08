@@ -1,0 +1,1643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>743</width>
+    <height>558</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>200</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>800</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QFormLayout" name="formLayout">
+      <property name="fieldGrowthPolicy">
+       <enum>QFormLayout::ExpandingFieldsGrow</enum>
+      </property>
+      <property name="verticalSpacing">
+       <number>6</number>
+      </property>
+      <property name="topMargin">
+       <number>10</number>
+      </property>
+      <property name="bottomMargin">
+       <number>10</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Handicap Basis:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QComboBox" name="comboBoxHandicapBasis">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>0</height>
+         </size>
+        </property>
+        <item>
+         <property name="text">
+          <string>11:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>11:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>11:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>11:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>11:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>11:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>12:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>12:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>12:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>12:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>12:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>12:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>13:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>13:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>13:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>13:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>13:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>13:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>14:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>14:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>14:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>14:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>14:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>14:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>15:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>15:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>15:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>15:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>15:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>15:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>16:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>16:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>16:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>16:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>16:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>16:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>17:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>17:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>17:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>17:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>17:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>17:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>18:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>18:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>18:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>18:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>18:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>18:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>19:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>19:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>19:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>19:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>19:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>19:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>20:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>20:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>20:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>20:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>20:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>20:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>21:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>21:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>21:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>21:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>21:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>21:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>22:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>22:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>22:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>22:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>22:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>22:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>23:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>23:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>23:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>23:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>23:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>23:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>24:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>24:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>24:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>24:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>24:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>24:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>25:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>25:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>25:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>25:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>25:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>25:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>26:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>26:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>26:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>26:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>26:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>26:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>27:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>27:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>27:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>27:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>27:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>27:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>28:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>28:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>28:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>28:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>28:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>28:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>29:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>29:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>29:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>29:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>29:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>29:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>30:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>30:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>30:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>30:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>30:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>30:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>31:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>31:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>31:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>31:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>31:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>31:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>32:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>32:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>32:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>32:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>32:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>32:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>33:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>33:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>33:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>33:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>33:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>33:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>34:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>34:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>34:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>34:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>34:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>34:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>35:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>35:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>35:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>35:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>35:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>35:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>36:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>36:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>36:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>36:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>36:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>36:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>37:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>37:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>37:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>37:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>37:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>37:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>38:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>38:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>38:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>38:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>38:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>38:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>39:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>39:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>39:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>39:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>39:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>39:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>40:00</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Elite Guys Time:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QComboBox" name="comboBoxEliteBoys">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>0</height>
+         </size>
+        </property>
+        <item>
+         <property name="text">
+          <string>12:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>12:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>12:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>12:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>12:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>12:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>13:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>13:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>13:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>13:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>13:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>13:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>14:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>14:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>14:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>14:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>14:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>14:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>15:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>15:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>15:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>15:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>15:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>15:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>16:00</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Elite Girls Time:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QComboBox" name="comboBoxEliteGirls">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>0</height>
+         </size>
+        </property>
+        <item>
+         <property name="text">
+          <string>13:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>13:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>13:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>13:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>13:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>13:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>14:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>14:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>14:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>14:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>14:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>14:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>15:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>15:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>15:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>15:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>15:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>15:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>16:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>16:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>16:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>16:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>16:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>16:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>17:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>17:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>17:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>17:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>17:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>17:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>18:00</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Elite Advantage:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QComboBox" name="comboBoxEliteAdvantage">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>0</height>
+         </size>
+        </property>
+        <item>
+         <property name="text">
+          <string>0:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>0:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>0:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>0:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>0:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>0:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1:10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1:20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1:40</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1:50</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>2:00</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="dragEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="dragDropMode">
+       <enum>QAbstractItemView::NoDragDrop</enum>
+      </property>
+      <property name="alternatingRowColors">
+       <bool>true</bool>
+      </property>
+      <property name="selectionMode">
+       <enum>QAbstractItemView::SingleSelection</enum>
+      </property>
+      <property name="rowCount">
+       <number>100</number>
+      </property>
+      <attribute name="horizontalHeaderStretchLastSection">
+       <bool>true</bool>
+      </attribute>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <column>
+       <property name="text">
+        <string>Sex</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Name</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Time Run</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Handicap</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Points Currently</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Personal Best</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>B</string>
+       </property>
+      </item>
+      <item row="0" column="1">
+       <property name="text">
+        <string>Example</string>
+       </property>
+      </item>
+      <item row="0" column="2">
+       <property name="text">
+        <string>15:10</string>
+       </property>
+      </item>
+      <item row="0" column="3">
+       <property name="text">
+        <string>2:00</string>
+       </property>
+      </item>
+      <item row="0" column="4">
+       <property name="text">
+        <string>15</string>
+       </property>
+      </item>
+      <item row="0" column="5">
+       <property name="text">
+        <string>14:50</string>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>G</string>
+       </property>
+      </item>
+      <item row="1" column="1">
+       <property name="text">
+        <string>Examplia</string>
+       </property>
+      </item>
+      <item row="1" column="2">
+       <property name="text">
+        <string>16:20</string>
+       </property>
+      </item>
+      <item row="1" column="3">
+       <property name="text">
+        <string>2:10</string>
+       </property>
+      </item>
+      <item row="1" column="4">
+       <property name="text">
+        <string>7</string>
+       </property>
+      </item>
+      <item row="1" column="5">
+       <property name="text">
+        <string>14:40</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="topMargin">
+       <number>10</number>
+      </property>
+      <property name="bottomMargin">
+       <number>10</number>
+      </property>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Expanding</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Calculate</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>743</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuSave">
+    <property name="title">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuLoad">
+    <property name="title">
+     <string>Load</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuInstructions">
+    <property name="title">
+     <string>Instructions</string>
+    </property>
+   </widget>
+   <addaction name="menuSave"/>
+   <addaction name="menuLoad"/>
+   <addaction name="menuInstructions"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
