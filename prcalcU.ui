@@ -1617,26 +1617,36 @@
      <height>24</height>
     </rect>
    </property>
-   <widget class="QMenu" name="menuSave">
+   <property name="nativeMenuBar">
+    <bool>true</bool>
+   </property>
+   <widget class="QMenu" name="File">
     <property name="title">
-     <string>Save</string>
+     <string>File</string>
     </property>
+    <addaction name="Save"/>
+    <addaction name="Load"/>
+    <addaction name="separator"/>
+    <addaction name="Instructions"/>
    </widget>
-   <widget class="QMenu" name="menuLoad">
-    <property name="title">
-     <string>Load</string>
-    </property>
-   </widget>
-   <widget class="QMenu" name="menuInstructions">
-    <property name="title">
-     <string>Instructions</string>
-    </property>
-   </widget>
-   <addaction name="menuSave"/>
-   <addaction name="menuLoad"/>
-   <addaction name="menuInstructions"/>
+   <addaction name="File"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="Save">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="Load">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="Instructions">
+   <property name="text">
+    <string>Program Instructions</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>
